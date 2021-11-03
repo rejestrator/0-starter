@@ -1,5 +1,6 @@
 {
   "name": "metalsmith-simple-starter",
+  "description": "Simple metalsmith starter with pug, markdown and layouts",
   "version": "1.0.0",
   "main": "build.js",
   "author": "Adam Surdyk",
