@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-simple-starter",
+  "version": "1.0.0",
+  "main": "build.js",
+  "author": "Adam Surdyk",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server ./out --no-browser",
+    "build": "node build.js",
+    "build:debug": "DEBUG=metalsmith:* node build.js",
+    "build:dev": "NODE_ENV=development node build.js",
+    "build:prod": "NODE_ENV=production node build.js"
+  },
+  "ntl": {
+    "runner": "yarn"
+  },
+  "devDependencies": {
+    "bootstrap": "4",
+    "jstransformer-pug": "^0.4.0",
+    "live-server": "^1.2.1",
+    "metalsmith": "^2.3.0",
+    "metalsmith-beautify": "^0.2.0",
+    "metalsmith-components": "^1.0.4",
+    "metalsmith-debug-ui": "^0.3.2",
+    "metalsmith-layouts": "^2.3.1",
+    "metalsmith-markdown": "^1.3.0"
+  }
+}
