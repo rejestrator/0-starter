@@ -8,6 +8,7 @@ const metadataOpt = {
 const markdownOpt = {}
 
 const layoutsOpt = {
+  pattern: '**/*.html',
   default: 'default.pug',
   directory: 'layouts'
 }
