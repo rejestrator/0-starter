@@ -1,1 +1,3 @@
-# Metalsmith simple starter
+# Simple metalsmit starter
+
+> Work in progress
